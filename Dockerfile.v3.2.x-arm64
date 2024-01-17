@@ -1,7 +1,6 @@
-# rebased/repackaged base image that only updates existing packages
-FROM mbentley/ubuntu:18.04
-LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
-LABEL org.opencontainers.image.source="https://github.com/mbentley/docker-omada-controller"
+FROM ubuntu:18.04
+LABEL maintainer="ngen-brett <25758102+ngen-brett@users.noreply.github.com>"
+LABEL org.opencontainers.image.source=https://github.com/ngen-brett/docker-omada-controller
 
 ARG INSTALL_VER=3.2
 

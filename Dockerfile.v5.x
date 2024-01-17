@@ -1,8 +1,8 @@
 # rebased/repackaged base image that only updates existing packages
-ARG BASE=mbentley/ubuntu:20.04
+ARG BASE=ubuntu:22.04
 FROM ${BASE}
-LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
-LABEL org.opencontainers.image.source="https://github.com/mbentley/docker-omada-controller"
+LABEL maintainer="ngen-brett <25758102+ngen-brett@users.noreply.github.com>"
+LABEL org.opencontainers.image.source=https://github.com/ngen-brett/docker-omada-controller
 
 COPY healthcheck.sh install.sh log4j_patch.sh /
 

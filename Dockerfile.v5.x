@@ -13,6 +13,7 @@ ARG ARCH=amd64
 ARG INSTALL_VER="5.13"
 ARG NO_MONGODB=false
 
+# install mongodb and dependencies
 RUN bash /install_mongodb.sh
 
 # install omada controller (instructions taken from install.sh) & patch log4j, if applicable
